@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/merge">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/card_imagem_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/overloadr"
+            android:background="@android:color/darker_gray"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/card_frame_conteiner_texto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/card_frame_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artistas e roteiristas da Irrational mantém a alma de BioShock viva em The Black Glove."
+            android:padding="10dp"
+            style="@style/Sombra"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:layout_above="@+id/card_frame_autor"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Samir Rolemberg"
+            style="@style/Sombra"
+            android:textStyle="bold"
+            android:id="@+id/card_frame_autor"
+            android:textColor="#FBEB2C"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="00/00/0000"
+            android:textStyle="bold"
+            style="@style/Sombra"
+            android:id="@+id/card_frame_data"
+            android:layout_below="@+id/card_frame_titulo"
+            android:layout_alignParentRight="true"
+            android:textColor="#FBEB2C"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</merge>

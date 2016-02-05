@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="url_feed_noticias">http://overloadr.com.br/noticias/feed/</string>
+
+    <string name="url_hsampaio" >http://overloadr.com.br/wp-content/uploads/2014/09/Henrique_Final-peq.png</string>
+    <string name="url_hpaola"   >http://overloadr.com.br/wp-content/uploads/2014/09/Heitor_Final_peq.png</string>
+    <string name="url_cteixeira">http://overloadr.com.br/wp-content/uploads/2014/09/Caio_Final_peq.png</string>
+</resources>

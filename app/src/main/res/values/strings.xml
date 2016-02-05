@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maitê</string>
+
+    <string name="title_menu">Menu</string>
+    <string name="title_noticias">Noticías</string>
+    <string name="title_sobre_site">Sobre o Site</string>
+    <string name="title_sobre_app">Sobre o App</string>
+    <string name="navigation_drawer_open">Abre o Menu de Navegação</string>
+    <string name="navigation_drawer_close">Fecha o Menu de Navegação</string>
+    <string name="action_example">Ação de Exemplo</string>
+    <string name="action_settings">Configurações</string>
+
+</resources>
